@@ -1,0 +1,20 @@
+{
+	"name": "qmq/qsby",
+	"description": "全时百应SDK",
+	"authors": [
+		{
+			"name": "autumn",
+			"email": "414111907@qq.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"qmq\\qsby\\": "src/"
+		}
+	},
+	"require": {
+		"topthink/think-helper": "^3.1",
+		"rmccue/requests": "^1.7",
+		"spatie/array-to-xml": "^2.11"
+	}
+}
